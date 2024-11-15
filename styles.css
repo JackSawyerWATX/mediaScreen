@@ -1,0 +1,38 @@
+/* TODO: Set up default styles for mobile devices for '.main-content' and '.sidebar' */
+.sidebar {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: #37583f;
+    border: 2px solid #37583f;
+    background-color: #c2cd87;
+    text-align: center;
+}
+
+.main-content {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: #37583f;
+    border: 2px solid #37583f;
+    background-color: #c2cd87;
+    text-align: center;
+}
+
+/* TODO: Use a media query to apply different styles for devices with a screen width of at least 400px */
+
+@media screen and (min-width: 600px) {
+  .sidebar {
+    width: 30%; /* For desktops or larger screens */
+    float: left; /* Place items side by side */
+    background-color: #37583f;
+    color: #c2cd87;
+  }
+  
+  .main-content {
+    width: 30%; /* For desktops or larger screens */
+    float: left; /* Place items side by side */
+    background-color: #37583f;
+    color: #c2cd87;
+  }
+}
